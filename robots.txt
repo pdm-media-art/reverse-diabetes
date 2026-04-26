@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://howireversedmydiabetes.com/sitemap.xml
+
+# Crawl rate
+Crawl-delay: 1
+
+# Disallow admin/pattern paths if any in future
+# Disallow: /admin/
+# Disallow: /api/
+
+# Allow search engines to index images
+User-agent: Googlebot-Image
+Allow: /images/
+Allow: /videos/
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
